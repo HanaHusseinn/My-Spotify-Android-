@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="ThemeTextColor">#FFFFFF</color>
+    <color name="ThemeBckgndColor">#000000</color>
+
+    <!--figures of categories colour-->
+    <color name="mic_card">#2CCCB1</color>
+    <color name="sun_card">#E74019</color>
+    <color name="radio_card">#3478C9</color>
+    <color name="disco_card">#9EE63672</color>
+    <color name="cassette_card">#C46A24DF</color>
+    <color name="bed_card">#FA1E1E1F</color>
+    <color name="dumbbell_card">#0995A8</color>
+    <color name="heart_card">#DF2316</color>
+    <color name="saxophone_card">#D713D5C1</color>
+    <color name="lamp_card">#B5100ACF</color>
+    <color name="cello_card">#16B31C</color>
+    <color name="hat_card">#DD0854AD</color>
+    <color name="eiffel_card">#C4DFAD66</color>
+    <color name="balloon_card">#FDE28908</color>
+    <color name="guitar_card">#F3018175</color>
+    <color name="tape_card">#0784BE</color>
+    <color name="plate_card">#FAA2533A</color>
+    <color name="percussion_card">#E2092A</color>
+
+    <!--categories colors-->
+    <color name="pop_card">#C4ECE7</color>
+    <color name="summer_card">#F99F8A</color>
+    <color name="hip_hop_card">#B0CFF4</color>
+    <color name="party_card">#9EEB9DB8</color>
+    <color name="rock_card">#C4946ED3</color>
+    <color name="sleep_card">#431E1E1F</color>
+    <color name="workout_card">#8AE2EE</color>
+    <color name="romance_card">#E6908A</color>
+    <color name="jazz_card">#D7A3DBD5</color>
+    <color name="focus_card">#904E489B</color>
+    <color name="classical_card">#96E799</color>
+    <color name="country_card">#CD3B84DB</color>
+    <color name="french_card">#A8F7D29D</color>
+    <color name="kids_and_family_card">#A4E69B2D</color>
+    <color name="metal_card">#97009688</color>
+    <color name="blues_card">#46BAF0</color>
+    <color name="dinner_card">#75A2533A</color>
+    <color name="latin_card">#EE7184</color>
+
+</resources>

@@ -1,0 +1,835 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnCount="3"
+            android:rowCount="6"
+            android:alignmentMode="alignMargins"
+            android:columnOrderPreserved="false"
+            android:background="#FFFFFF"
+            android:padding="14dp"
+            android:layout_marginTop="16dp">
+
+            <!--Row1: Pop, Summer, Hip-hop-->
+            <!-- Column1-->
+            <!--30-->
+            <androidx.cardview.widget.CardView
+            android:id="@+id/pop_card"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_columnWeight="1"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:background="@color/pop_card">
+                <ImageView
+                    android:id="@+id/mic_card"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true"
+                    android:src="@drawable/mic_card"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:text="POP"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentStart="true"/>
+            </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+            <!--Column2-->
+            <!--22-->
+            <androidx.cardview.widget.CardView
+            android:id="@+id/summer_card"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:background="@color/summer_card">
+
+
+                <ImageView
+                    android:id="@+id/sun_card"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true"
+                    android:src="@drawable/sun_card"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:text="SUMMER"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentStart="true"
+                    app:autoSizeTextType="uniform" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+            <!--23-->
+            <androidx.cardview.widget.CardView
+            android:id="@+id/hip_hop_card"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:background="@color/hip_hop_card">
+
+                <ImageView
+                    android:id="@+id/radio_card"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true"
+                    android:src="@drawable/drum_card"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:text="HIP-HOP"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentStart="true"
+                    app:autoSizeTextType="uniform" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+            <!--Row2: Party, Rock, Sleep-->
+            <!--30-->
+            <androidx.cardview.widget.CardView
+            android:id="@+id/party_card"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:background="@color/party_card">
+
+                <ImageView
+                    android:id="@+id/disco_card"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true"
+                    android:src="@drawable/disco_card"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:text="PARTY"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentStart="true"
+                    app:autoSizeTextType="uniform" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+            <!--30-->
+            <androidx.cardview.widget.CardView
+            android:id="@+id/rock_card"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:background="@color/rock_card">
+
+                <ImageView
+                    android:id="@+id/cassette_card"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true"
+                    android:src="@drawable/cassette_card"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:text="ROCK"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentStart="true"
+                    app:autoSizeTextType="uniform" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+            <!--30-->
+            <androidx.cardview.widget.CardView
+            android:id="@+id/sleep_card"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:background="@color/sleep_card">
+
+                <ImageView
+                    android:id="@+id/bed_card"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true"
+                    android:src="@drawable/bed_card"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:text="SLEEP"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentStart="true"
+                    app:autoSizeTextType="uniform" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+            <!--Row3: Workout, Romance, Jazz-->
+            <!--19-->
+            <androidx.cardview.widget.CardView
+            android:id="@+id/workout_card"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:background="@color/workout_card">
+
+                <ImageView
+                    android:id="@+id/dumbell_card"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true"
+                    android:src="@drawable/dumbbell_card"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:text="WORKOUT"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentStart="true"
+                    app:autoSizeTextType="uniform" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+            android:id="@+id/romance_card"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:background="@color/romance_card">
+
+                <ImageView
+                    android:id="@+id/heart_card"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true"
+                    android:src="@drawable/heart2_card"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:text="ROMANCE"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentStart="true"
+                    app:autoSizeTextType="uniform" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+            <!--30-->
+            <androidx.cardview.widget.CardView
+            android:id="@+id/jazz_card"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:background="@color/jazz_card">
+
+                <ImageView
+                    android:id="@+id/saxophone_card"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true"
+                    android:src="@drawable/saxophone3_card"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:text="JAZZ"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentStart="true"
+                    app:autoSizeTextType="uniform" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+            <!--Row4: Focus, Classical, Country-->
+            <!--30-->
+            <androidx.cardview.widget.CardView
+            android:id="@+id/focus_card"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:background="@color/focus_card">
+
+                <ImageView
+                    android:id="@+id/lamp_card"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true"
+                    android:src="@drawable/lamp3_card"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:text="FOCUS"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentStart="true"
+                    app:autoSizeTextType="uniform" />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+            <!--18-->
+            <androidx.cardview.widget.CardView
+            android:id="@+id/classical_card"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:background="@color/classical_card">
+
+                <ImageView
+                    android:id="@+id/cello_card"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true"
+                    android:src="@drawable/cello4_card"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:text="CLASSICAL"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentStart="true"
+                    app:autoSizeTextType="uniform" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+            <!--android:layout_margin="16dp" inside layout and also make it match parent not wrap in h and w-->
+            <!--20-->
+            <androidx.cardview.widget.CardView
+            android:id="@+id/country_card"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:background="@color/country_card">
+
+                <ImageView
+                    android:id="@+id/hat_card"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true"
+                    android:src="@drawable/hat5_card"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:text="COUNTRY"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentStart="true"
+                    app:autoSizeTextType="uniform" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+            <!--Row5: French, Kids&Family, Metal-->
+            <!--26 good for all-->
+            <!--30-->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/french_card"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginTop="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:background="@color/french_card">
+
+                    <ImageView
+                        android:id="@+id/eiffel_card"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentStart="true"
+                        android:src="@drawable/eiffel5_card"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="#FFFFFF"
+                        android:text="FRENCH"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentStart="true"
+                        app:autoSizeTextType="uniform" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <!--28-->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/kids_and_family_card"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginTop="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:background="@color/kids_and_family_card">
+
+                    <ImageView
+                        android:id="@+id/balloon_card"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentStart="true"
+                        android:src="@drawable/balloon_card"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="start"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="#FFFFFF"
+                        android:text="KIDS &amp; FAMILY"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentStart="true"
+                        app:autoSizeTextType="uniform" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <!--android:layout_margin="16dp" inside layout and also make it match parent not wrap in h and w-->
+            <!--29-->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/metal_card"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginTop="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:background="@color/metal_card">
+
+                    <ImageView
+                        android:id="@+id/guitar_card"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentStart="true"
+                        android:src="@drawable/guitar_card"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="start"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="#FFFFFF"
+                        android:text="METAL"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentStart="true"
+                        app:autoSizeTextType="uniform" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <!--Row6: Blues, Dinner, Latin-->
+            <!--30-->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/blues_card"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginTop="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:background="@color/blues_card">
+
+                    <ImageView
+                        android:id="@+id/tape_card"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentStart="true"
+                        android:src="@drawable/tape_card"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="#FFFFFF"
+                        android:text="BLUES"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentStart="true"
+                        app:autoSizeTextType="uniform" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <!--26-->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/dinner_card"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginTop="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:background="@color/dinner_card">
+
+                    <ImageView
+                        android:id="@+id/plate_card"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentStart="true"
+                        android:src="@drawable/plate_card"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="start"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="#FFFFFF"
+                        android:text="DINNER"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentStart="true"
+                        app:autoSizeTextType="uniform" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <!--android:layout_margin="16dp" inside layout and also make it match parent not wrap in h and w-->
+            <!--20-->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/latin_card"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginTop="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:background="@color/latin_card">
+
+                    <ImageView
+                        android:id="@+id/percussion_card"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentStart="true"
+                        android:src="@drawable/percussion_card"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="start"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="#FFFFFF"
+                        android:text="LATIN"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentStart="true"
+                        app:autoSizeTextType="uniform" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </GridLayout>
+    </LinearLayout>
+
+</ScrollView>
+
+
+
